@@ -1,0 +1,10 @@
+//
+// Created by kookie on 30/03/2020.
+//
+
+#ifndef MEEGERENGEN_SELF_ADJUSTUBLE_GA_PROGRAM_H
+#define MEEGERENGEN_SELF_ADJUSTUBLE_GA_PROGRAM_H
+
+void sa_image_main();
+
+#endif //MEEGERENGEN_SELF_ADJUSTUBLE_GA_PROGRAM_H

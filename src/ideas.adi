@@ -1,0 +1,14 @@
+//Formatirani ispis
+
+Svaki objekt zna kako sebe napraviti
+
+Window ima svoj shader lib
+
+objekt posjeduje svoje vbo i vao
+
+Objekt mogucnost loadanja shadera
+exemption handling kada se u mapi shadera nes ne nade
+
+
+Omoguciti
+window.draw

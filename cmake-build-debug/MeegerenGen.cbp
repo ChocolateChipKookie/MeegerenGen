@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="MeegerenGen"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\vendor\;CMake Files\vendor\glfw-3.3.2\;CMake Files\vendor\glfw-3.3.2\src\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/kookie/documents/Projects/MeegerenGen/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kookie/documents/Projects/MeegerenGen/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kookie/documents/Projects/MeegerenGen/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kookie/documents/Projects/MeegerenGen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kookie/documents/Projects/MeegerenGen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/kookie/documents/Projects/MeegerenGen/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kookie/documents/Projects/MeegerenGen/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kookie/documents/Projects/MeegerenGen/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kookie/documents/Projects/MeegerenGen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kookie/documents/Projects/MeegerenGen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/kookie/documents/Projects/MeegerenGen/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kookie/documents/Projects/MeegerenGen/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kookie/documents/Projects/MeegerenGen/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kookie/documents/Projects/MeegerenGen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kookie/documents/Projects/MeegerenGen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/kookie/documents/Projects/MeegerenGen/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kookie/documents/Projects/MeegerenGen/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kookie/documents/Projects/MeegerenGen/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kookie/documents/Projects/MeegerenGen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kookie/documents/Projects/MeegerenGen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MeegerenGen">
+				<Option output="/home/kookie/documents/Projects/MeegerenGen/cmake-build-debug/MeegerenGen" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kookie/documents/Projects/MeegerenGen/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/kookie/documents/Projects/MeegerenGen/vendor/glad/include"/>
+					<Add directory="/home/kookie/documents/Projects/MeegerenGen/vendor/stb"/>
+					<Add directory="/home/kookie/documents/Projects/MeegerenGen/vendor/glfw-3.3.2/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kookie/documents/Projects/MeegerenGen/cmake-build-debug/Makefile&quot;  VERBOSE=1 MeegerenGen"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kookie/documents/Projects/MeegerenGen/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kookie/documents/Projects/MeegerenGen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kookie/documents/Projects/MeegerenGen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MeegerenGen/fast">
+				<Option output="/home/kookie/documents/Projects/MeegerenGen/cmake-build-debug/MeegerenGen" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kookie/documents/Projects/MeegerenGen/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/kookie/documents/Projects/MeegerenGen/vendor/glad/include"/>
+					<Add directory="/home/kookie/documents/Projects/MeegerenGen/vendor/stb"/>
+					<Add directory="/home/kookie/documents/Projects/MeegerenGen/vendor/glfw-3.3.2/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kookie/documents/Projects/MeegerenGen/cmake-build-debug/Makefile&quot;  VERBOSE=1 MeegerenGen/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kookie/documents/Projects/MeegerenGen/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kookie/documents/Projects/MeegerenGen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kookie/documents/Projects/MeegerenGen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/kookie/documents/Projects/MeegerenGen/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kookie/documents/Projects/MeegerenGen/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kookie/documents/Projects/MeegerenGen/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kookie/documents/Projects/MeegerenGen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kookie/documents/Projects/MeegerenGen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/kookie/documents/Projects/MeegerenGen/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kookie/documents/Projects/MeegerenGen/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kookie/documents/Projects/MeegerenGen/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kookie/documents/Projects/MeegerenGen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kookie/documents/Projects/MeegerenGen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/kookie/documents/Projects/MeegerenGen/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kookie/documents/Projects/MeegerenGen/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kookie/documents/Projects/MeegerenGen/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kookie/documents/Projects/MeegerenGen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kookie/documents/Projects/MeegerenGen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uninstall">
+				<Option working_dir="/home/kookie/documents/Projects/MeegerenGen/cmake-build-debug/vendor/glfw-3.3.2"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kookie/documents/Projects/MeegerenGen/cmake-build-debug/vendor/glfw-3.3.2/Makefile&quot;  VERBOSE=1 uninstall"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kookie/documents/Projects/MeegerenGen/cmake-build-debug/vendor/glfw-3.3.2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kookie/documents/Projects/MeegerenGen/cmake-build-debug/vendor/glfw-3.3.2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kookie/documents/Projects/MeegerenGen/cmake-build-debug/vendor/glfw-3.3.2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw">
+				<Option output="/home/kookie/documents/Projects/MeegerenGen/cmake-build-debug/vendor/glfw-3.3.2/src/libglfw3.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kookie/documents/Projects/MeegerenGen/cmake-build-debug/vendor/glfw-3.3.2/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GLFW_USE_CONFIG_H"/>
+					<Add directory="/home/kookie/documents/Projects/MeegerenGen/vendor/glad/include"/>
+					<Add directory="/home/kookie/documents/Projects/MeegerenGen/vendor/stb"/>
+					<Add directory="/home/kookie/documents/Projects/MeegerenGen/vendor/glfw-3.3.2/include"/>
+					<Add directory="/home/kookie/documents/Projects/MeegerenGen/vendor/glfw-3.3.2/src"/>
+					<Add directory="/home/kookie/documents/Projects/MeegerenGen/cmake-build-debug/vendor/glfw-3.3.2/src"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kookie/documents/Projects/MeegerenGen/cmake-build-debug/vendor/glfw-3.3.2/src/Makefile&quot;  VERBOSE=1 glfw"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kookie/documents/Projects/MeegerenGen/cmake-build-debug/vendor/glfw-3.3.2/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kookie/documents/Projects/MeegerenGen/cmake-build-debug/vendor/glfw-3.3.2/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kookie/documents/Projects/MeegerenGen/cmake-build-debug/vendor/glfw-3.3.2/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw/fast">
+				<Option output="/home/kookie/documents/Projects/MeegerenGen/cmake-build-debug/vendor/glfw-3.3.2/src/libglfw3.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kookie/documents/Projects/MeegerenGen/cmake-build-debug/vendor/glfw-3.3.2/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GLFW_USE_CONFIG_H"/>
+					<Add directory="/home/kookie/documents/Projects/MeegerenGen/vendor/glad/include"/>
+					<Add directory="/home/kookie/documents/Projects/MeegerenGen/vendor/stb"/>
+					<Add directory="/home/kookie/documents/Projects/MeegerenGen/vendor/glfw-3.3.2/include"/>
+					<Add directory="/home/kookie/documents/Projects/MeegerenGen/vendor/glfw-3.3.2/src"/>
+					<Add directory="/home/kookie/documents/Projects/MeegerenGen/cmake-build-debug/vendor/glfw-3.3.2/src"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kookie/documents/Projects/MeegerenGen/cmake-build-debug/vendor/glfw-3.3.2/src/Makefile&quot;  VERBOSE=1 glfw/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kookie/documents/Projects/MeegerenGen/cmake-build-debug/vendor/glfw-3.3.2/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kookie/documents/Projects/MeegerenGen/cmake-build-debug/vendor/glfw-3.3.2/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kookie/documents/Projects/MeegerenGen/cmake-build-debug/vendor/glfw-3.3.2/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/cmake-build-debug/vendor/glfw-3.3.2/src/glfw_config.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/src/ga/cleaner_saga.cpp">
+			<Option target="MeegerenGen"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/src/ga/cleaner_saga.h">
+			<Option target="MeegerenGen"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/src/ga/drawable_genetic_algorithm.h">
+			<Option target="MeegerenGen"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/src/ga/evaluator/evaluator.h">
+			<Option target="MeegerenGen"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/src/ga/evaluator/mipmap_evaluator.h">
+			<Option target="MeegerenGen"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/src/ga/genetic_algorithm.h">
+			<Option target="MeegerenGen"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/src/ga/mbga.h">
+			<Option target="MeegerenGen"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/src/ga/mutation/composite_mutation.h">
+			<Option target="MeegerenGen"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/src/ga/mutation/mutation.h">
+			<Option target="MeegerenGen"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/src/ga/mutation/obligatory_composite_mutation.h">
+			<Option target="MeegerenGen"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/src/ga/mutation/self_adjustable_mutation.h">
+			<Option target="MeegerenGen"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/src/ga/selection/random_selection.h">
+			<Option target="MeegerenGen"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/src/ga/selection/roulette_selection.h">
+			<Option target="MeegerenGen"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/src/ga/selection/selection.h">
+			<Option target="MeegerenGen"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/src/ga/selection/tournament_selection.h">
+			<Option target="MeegerenGen"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/src/ga/self_adjustable_ga.h">
+			<Option target="MeegerenGen"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/src/ga/solution/cps/cps.cpp">
+			<Option target="MeegerenGen"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/src/ga/solution/cps/cps.h">
+			<Option target="MeegerenGen"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/src/ga/solution/cps/mutations/add_polygon_mutation.cpp">
+			<Option target="MeegerenGen"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/src/ga/solution/cps/mutations/add_polygon_mutation.h">
+			<Option target="MeegerenGen"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/src/ga/solution/cps/mutations/add_vertex_mutation.cpp">
+			<Option target="MeegerenGen"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/src/ga/solution/cps/mutations/add_vertex_mutation.h">
+			<Option target="MeegerenGen"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/src/ga/solution/cps/mutations/background_color_mutation.cpp">
+			<Option target="MeegerenGen"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/src/ga/solution/cps/mutations/background_color_mutation.h">
+			<Option target="MeegerenGen"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/src/ga/solution/cps/mutations/color_mutation.cpp">
+			<Option target="MeegerenGen"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/src/ga/solution/cps/mutations/color_mutation.h">
+			<Option target="MeegerenGen"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/src/ga/solution/cps/mutations/curving_vertex_mutation.cpp">
+			<Option target="MeegerenGen"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/src/ga/solution/cps/mutations/curving_vertex_mutation.h">
+			<Option target="MeegerenGen"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/src/ga/solution/cps/mutations/point_mutation.cpp">
+			<Option target="MeegerenGen"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/src/ga/solution/cps/mutations/point_mutation.h">
+			<Option target="MeegerenGen"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/src/ga/solution/cps/mutations/remove_polygon_mutation.cpp">
+			<Option target="MeegerenGen"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/src/ga/solution/cps/mutations/remove_polygon_mutation.h">
+			<Option target="MeegerenGen"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/src/ga/solution/cps/mutations/remove_vertex_mutation.cpp">
+			<Option target="MeegerenGen"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/src/ga/solution/cps/mutations/remove_vertex_mutation.h">
+			<Option target="MeegerenGen"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/src/ga/solution/cps/mutations/swap_mutation.cpp">
+			<Option target="MeegerenGen"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/src/ga/solution/cps/mutations/swap_mutation.h">
+			<Option target="MeegerenGen"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/src/ga/solution/solution.h">
+			<Option target="MeegerenGen"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/src/ga/util/ga_bool_ref_condition.h">
+			<Option target="MeegerenGen"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/src/ga/util/ga_time_condition.h">
+			<Option target="MeegerenGen"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/src/graphics/context.cpp">
+			<Option target="MeegerenGen"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/src/graphics/context.h">
+			<Option target="MeegerenGen"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/src/graphics/drawer/drawer.h">
+			<Option target="MeegerenGen"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/src/graphics/drawer/opengl_drawer.cpp">
+			<Option target="MeegerenGen"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/src/graphics/drawer/opengl_drawer.h">
+			<Option target="MeegerenGen"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/src/graphics/drawer/svg_drawer.cpp">
+			<Option target="MeegerenGen"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/src/graphics/drawer/svg_drawer.h">
+			<Option target="MeegerenGen"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/src/graphics/framebuffer.cpp">
+			<Option target="MeegerenGen"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/src/graphics/framebuffer.h">
+			<Option target="MeegerenGen"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/src/graphics/glad.c">
+			<Option target="MeegerenGen"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/src/graphics/shader.cpp">
+			<Option target="MeegerenGen"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/src/graphics/shader.h">
+			<Option target="MeegerenGen"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/src/graphics/texture.cpp">
+			<Option target="MeegerenGen"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/src/graphics/texture.h">
+			<Option target="MeegerenGen"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/src/graphics/util/graphics_error.h">
+			<Option target="MeegerenGen"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/src/graphics/util/image_loader.cpp">
+			<Option target="MeegerenGen"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/src/graphics/util/image_loader.h">
+			<Option target="MeegerenGen"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/src/main.cpp">
+			<Option target="MeegerenGen"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/src/programs/cleaner_saga_program.cpp">
+			<Option target="MeegerenGen"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/src/programs/cleaner_saga_program.h">
+			<Option target="MeegerenGen"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/src/programs/creator_programs.cpp">
+			<Option target="MeegerenGen"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/src/programs/creator_programs.h">
+			<Option target="MeegerenGen"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/src/programs/image_ga.cpp">
+			<Option target="MeegerenGen"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/src/programs/image_ga.h">
+			<Option target="MeegerenGen"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/src/programs/self_adjustuble_ga_program.cpp">
+			<Option target="MeegerenGen"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/src/programs/self_adjustuble_ga_program.h">
+			<Option target="MeegerenGen"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/src/util/data_loader.cpp">
+			<Option target="MeegerenGen"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/src/util/data_loader.h">
+			<Option target="MeegerenGen"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/src/util/drawer_thread.h">
+			<Option target="MeegerenGen"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/src/util/multi_drawer_thread.h">
+			<Option target="MeegerenGen"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/src/util/types.h">
+			<Option target="MeegerenGen"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/vendor/glfw-3.3.2/include/GLFW/glfw3.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/vendor/glfw-3.3.2/include/GLFW/glfw3native.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/vendor/glfw-3.3.2/src/context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/vendor/glfw-3.3.2/src/egl_context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/vendor/glfw-3.3.2/src/egl_context.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/vendor/glfw-3.3.2/src/glx_context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/vendor/glfw-3.3.2/src/glx_context.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/vendor/glfw-3.3.2/src/init.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/vendor/glfw-3.3.2/src/input.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/vendor/glfw-3.3.2/src/internal.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/vendor/glfw-3.3.2/src/linux_joystick.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/vendor/glfw-3.3.2/src/linux_joystick.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/vendor/glfw-3.3.2/src/mappings.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/vendor/glfw-3.3.2/src/monitor.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/vendor/glfw-3.3.2/src/osmesa_context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/vendor/glfw-3.3.2/src/osmesa_context.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/vendor/glfw-3.3.2/src/posix_thread.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/vendor/glfw-3.3.2/src/posix_thread.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/vendor/glfw-3.3.2/src/posix_time.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/vendor/glfw-3.3.2/src/posix_time.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/vendor/glfw-3.3.2/src/vulkan.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/vendor/glfw-3.3.2/src/window.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/vendor/glfw-3.3.2/src/x11_init.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/vendor/glfw-3.3.2/src/x11_monitor.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/vendor/glfw-3.3.2/src/x11_platform.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/vendor/glfw-3.3.2/src/x11_window.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/vendor/glfw-3.3.2/src/xkb_unicode.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/vendor/glfw-3.3.2/src/xkb_unicode.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/vendor/glfw-3.3.2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\vendor\glfw-3.3.2\"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/vendor/glfw-3.3.2/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\vendor\glfw-3.3.2\"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/vendor/glfw-3.3.2/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\vendor\glfw-3.3.2\src\"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/vendor/glfw-3.3.2/src/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\vendor\glfw-3.3.2\src\"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/vendor/glfw-3.3.2/src/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\vendor\glfw-3.3.2\src\"/>
+		</Unit>
+		<Unit filename="/home/kookie/documents/Projects/MeegerenGen/vendor/glfw-3.3.2/src/glfw_config.h.in">
+			<Option virtualFolder="CMake Files\vendor\glfw-3.3.2\src\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
